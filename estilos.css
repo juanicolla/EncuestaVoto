@@ -160,15 +160,19 @@ button:hover,
 
 }
 
+.logos{
+    position: fixed;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    pointer-events: none;
+}
 .logo-footer{
 
-    width:150px;
-
-    position:fixed;
-
-    left:40px;
-
-    bottom:20px;
+    width:170px;
 
 }
 
@@ -176,12 +180,6 @@ button:hover,
 .banderaER{
 
     width:130px;
-
-    position:fixed;
-
-    right:150px;
-
-    bottom:30px;
 
 }
 
@@ -239,5 +237,39 @@ footer{
     color:#777;
 
     padding:20px 0;
+
+}
+
+@media (max-width: 768px) {
+
+    main{
+
+        padding:20px;
+
+    }
+
+    .bienvenida,
+    .encuesta,
+    .resultado{
+
+        width:100%;
+        padding:25px;
+
+    }
+
+    .logos{
+        padding: 0 10px;
+    }
+    .banderaER{
+
+        width:80px;
+
+    }
+
+    .logo-footer{
+
+        width:90px;
+
+    }
 
 }

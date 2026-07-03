@@ -1,0 +1,243 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f2f2f2;
+
+    min-height:100vh;
+
+    display:flex;
+    flex-direction:column;
+
+}
+
+header{
+
+    background:#062540;
+    color:white;
+
+    text-align:center;
+
+    padding:20px;
+
+}
+
+main{
+
+    flex:1;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    position:relative;
+
+    padding:50px;
+
+}
+
+.bienvenida,
+.encuesta,
+.resultado{
+
+    background:white;
+
+    width:600px;
+
+    padding:45px;
+
+    border-radius:12px;
+
+    box-shadow:0 5px 20px rgba(0,0,0,.15);
+
+}
+
+h2{
+
+    margin-bottom:20px;
+
+}
+.subtitulo{
+
+    margin-top:10px;
+
+    text-align:center;
+
+    color:#062540;
+
+    font-size:36px;
+
+    font-family:"Tangerine", cursive;
+
+    font-weight:100;
+}
+
+h3{
+
+    margin-top:25px;
+    margin-bottom:10px;
+
+    color:#062540;
+
+}
+
+hr{
+
+    margin:20px 0;
+
+    border:none;
+
+    border-top:1px solid #ddd;
+
+}
+
+select{
+
+    width:100%;
+
+    padding:10px;
+
+    margin-top:10px;
+
+    border:1px solid #ccc;
+
+    border-radius:5px;
+
+    font-size:16px;
+
+}
+
+label{
+
+    display:block;
+
+    margin:15px 0;
+
+    font-size:18px;
+
+}
+
+button,
+.boton{
+
+    display:block;
+
+    width:100%;
+
+    text-align:center;
+
+    margin-top:20px;
+
+    padding: 12px 10px;
+
+    background:#C8A24A;
+
+    color:white;
+
+    text-decoration:none;
+
+    border:none;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+}
+
+button:hover,
+.boton:hover{
+
+    background:#947837;
+
+}
+
+.logo-footer{
+
+    width:150px;
+
+    position:fixed;
+
+    left:40px;
+
+    bottom:20px;
+
+}
+
+
+.banderaER{
+
+    width:130px;
+
+    position:fixed;
+
+    right:150px;
+
+    bottom:30px;
+
+}
+
+.gracias-container{
+
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    justify-content:center;
+    align-items:center;
+    font-size:24px;
+
+    color:#062540;
+
+}
+
+.gracias{
+    
+    margin-bottom:20px;
+    font-size:32px;
+}
+
+.subtitulo-gracias{
+
+    margin-bottom:20px;
+    font-size:28px;
+}
+
+.opinion-importante{
+
+    margin-bottom:20px;
+    font-size:22px;
+
+}
+
+.bandera-container{
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+.banderaAR-ER{
+
+    width: 400px;
+
+}
+
+footer{
+
+    text-align:center;
+
+    color:#777;
+
+    padding:20px 0;
+
+}
